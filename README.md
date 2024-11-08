@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/guiwitz/CAS_AICP_M4/blob/main)
+
 # Image module for AICP CAS at DSL
 
 This repository contains the notebooks and scripts for the Image module of the **A**rticifial **I**ntelligence in **C**reative **P**ractices CAS at DSL.

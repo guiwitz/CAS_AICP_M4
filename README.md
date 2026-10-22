@@ -10,13 +10,13 @@ To use the repository, either clone it using git, download it as a zip file (gre
 To install required packages we recommend using conda to manage environments. Different parts of the course have different requirements and some notebooks are meant to rather run on Google Colab for GPU access. For the initial introduction to image handling in Python, you can use the following environment, which should install relatively quickly:
 
 ```bash
-conda create -n aicp_image python=3.12 jupyterlab numpy matplotlib scikit-image ghostscript pillow -c conda-forge
+conda create -n aicp_image python=3.14 jupyterlab numpy matplotlib scikit-image pillow openai -c conda-forge
 ```
 
 Alternatively, you can create the following full environment that will give you access to certain deep learning models like YOLO and replicate API etc.: 
 
 ```bash
-conda create -n aicp_image_full python=3.12 jupyterlab numpy matplotlib scikit-image ghostscript pytorch torchvision pillow replicate ultralytics -c conda-forge
+conda create -n aicp_image_full python=3.14 jupyterlab numpy matplotlib scikit-image openai pytorch torchvision pillow replicate ultralytics -c conda-forge
 ```
 
 To use the environments, activate them using their name e.g.:
@@ -30,3 +30,5 @@ To start Jupyter Lab, run:
 ```bash
 jupyter lab
 ```
+
+To use the environment in VSCode, open a notebook, and select in the top right the kernel corresponding to the environment you created (e.g., `aicp_image` or `aicp_image_full`).
